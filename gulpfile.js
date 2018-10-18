@@ -50,7 +50,7 @@ gulp.task('scripts', function () {
     .src(['./scripts/library.js','./scripts/main.js'])    
     //initialiser la maps
     .pipe(sourcemaps.init())  
-    //plumber
+    //Empêcher les ruptures de serveur causées par des erreurs de plugins gulp
     .pipe(plumber())
     //passer les fichiers js par jshint pour fixer les problemes des navigateurs
     .pipe(jshint({

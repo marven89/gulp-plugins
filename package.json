@@ -2,7 +2,7 @@
   "name": "building",
   "version": "1.0.0",
   "description": "Example code for using Gulp",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,8 +19,6 @@
     "gulp-plumber": "^1.2.0",
     "gulp-sourcemaps": "^1.9.1",
     "gulp-uglify": "^2.0.0",
-    "gulp-usemin": "^0.3.29",
-    "gulp-usemin-html": "0.0.3",
     "jshint": "^2.9.4",
     "less-plugin-autoprefix": "^1.5.1"
   },
