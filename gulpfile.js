@@ -105,22 +105,5 @@ gulp.task('serve', ['less','scripts','pages'], function() {
     gulp.watch("./*.html", ['pages']).on('change', browserSync.reload);
 });
 
-
+//la tache par default qui se lance avec la commande "gulp"
 gulp.task('default', ['serve']);
-
-
-
-
-
-
-
-
-/*
-gulp.task('watch', function () {
-    gulp.watch('./less/*.less', ['less'])
-    .on('change', function (event) {    
-        console.log(`Watch js: ${event.path} was ${event.type}.`);
-    });
-    gulp.watch('./scripts/*.js', ['scripts'])   
-    gulp.watch('./*.html', ['pages'])    
-});*/
